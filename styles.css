@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: floralwhite;
+    min-height: 100vh;
+    grid-template-rows: 32px 16px 1fr 1fr ;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header header header "
+    "nav    nav    nav    nav    nav"
+    "left   main   main   main   right1"
+    "busi   busi   busi   busi   busi";
+}
+div {
+    border: solid grey 1px;
+    background: rgb(80, 229, 255);
+}
+.searchmenu { 
+    background: rgb(255, 0, 0);
+}
+main {
+    background: rgb(255, 230, 0);
+}
+nav {
+    background: #000;
+    color: #fff;
+}
